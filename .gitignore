@@ -1,0 +1,8 @@
+vendor/*
+.DS_Store
+*.sql
+*.tar.gz
+pub/images/news/*
+pub/images/preview/*
+pub/images/tabloid/*
+

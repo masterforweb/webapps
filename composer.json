@@ -1,0 +1,35 @@
+{
+    
+    "require": {
+        "php":">=5.3.0",
+        "masterforweb/_kuri":"dev-master",
+        "masterforweb/korm":"dev-master",
+        "masterforweb/genform":"dev-master",
+        "masterforweb/db_lite":"dev-master",
+        "masterforweb/thumbcache":"dev-master"
+    },
+    "repositories":[
+        
+        {
+            "type":"git",
+            "url":"https://github.com/masterforweb/_kuri"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/masterforweb/korm"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/masterforweb/genform"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/masterforweb/db_lite"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/masterforweb/thumbcache"
+        }
+        
+    ]
+}

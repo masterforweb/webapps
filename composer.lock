@@ -1,0 +1,169 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "949d02376166fc5b57840b9c1a4d86c9",
+    "packages": [
+        {
+            "name": "masterforweb/_kuri",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masterforweb/_kuri",
+                "reference": "e1d9baea288d02d2987a04d16155ce506d5f9ce3"
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "_kuri.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AK Delfin",
+                    "email": "masterforweb@hotmail.com"
+                }
+            ],
+            "description": "Autorouting without regular. MVC standart role: controller/action/params. Quick start",
+            "homepage": "https://github.com/masterforweb/_kuri",
+            "keywords": [
+                "microframework",
+                "php quick start",
+                "rest",
+                "router"
+            ],
+            "time": "2018-12-24T10:48:08+00:00"
+        },
+        {
+            "name": "masterforweb/db_lite",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masterforweb/db_lite",
+                "reference": "9b854965490ee63e8bd4b3378ce29389c2ddbaa8"
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "db_lite.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AK Delfin",
+                    "email": "masterforweb@hotmail.com"
+                }
+            ],
+            "description": "lite pdo sql",
+            "homepage": "https://github.com/masterforweb/db_lite",
+            "keywords": [
+                "microframework",
+                "php quick start",
+                "rest",
+                "router"
+            ],
+            "time": "2018-06-10T23:05:00+00:00"
+        },
+        {
+            "name": "masterforweb/genform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masterforweb/genform",
+                "reference": "fa3b78a6de9d5747942d0d6e8dc75a1b98a0af52"
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "genform.php"
+                ]
+            },
+            "description": "php genform",
+            "keywords": [
+                "generator, form"
+            ],
+            "time": "2017-05-30T21:47:28+00:00"
+        },
+        {
+            "name": "masterforweb/korm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masterforweb/korm",
+                "reference": "5243ebda5e11004c79a6dafcbf078b23046ed7b1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "korm.php"
+                ]
+            },
+            "description": "a PHP micro ORM",
+            "homepage": "https://github.com/akdelf/korm",
+            "keywords": [
+                "ORM"
+            ],
+            "time": "2018-02-18T07:20:45+00:00"
+        },
+        {
+            "name": "masterforweb/thumbcache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masterforweb/thumbcache",
+                "reference": "d3347bc7910b99668251f6e7b6a8855cd7fdc100"
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "thumbcache.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "thumbcache jpeg",
+            "homepage": "https://github.com/akdelf/thumbcache",
+            "keywords": [
+                "thumb images"
+            ],
+            "time": "2018-11-06T18:51:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "masterforweb/_kuri": 20,
+        "masterforweb/korm": 20,
+        "masterforweb/genform": 20,
+        "masterforweb/db_lite": 20,
+        "masterforweb/thumbcache": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}
