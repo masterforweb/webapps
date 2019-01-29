@@ -10,8 +10,9 @@ else
 define('SITE', $protocol.$_SERVER['HTTP_HOST'].'/');
 define('SITEPATH', $_SERVER['DOCUMENT_ROOT'].'/');
 define('APPPATH', SITEPATH.'app/');
-define('VIEWPATH', SITEPATH.'app/');
+define('VIEWPATH', APPPATH.'views/');
 define('URI', $_SERVER['REQUEST_URI'].'/');
+define('IMGURL', SITE.'pub/images/icon_apps/');
 
 if (SITE == 'webapps.dv') {
     ini_set('display_errors','on');
